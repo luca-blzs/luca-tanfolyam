@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TestComponent } from './test.component';
+import { SemanticHtmlComponent } from './semantic-html.component';
 
-describe('TestComponent', () => {
-  let component: TestComponent;
-  let fixture: ComponentFixture<TestComponent>;
+describe('SemanticHtmlComponent', () => {
+  let component: SemanticHtmlComponent;
+  let fixture: ComponentFixture<SemanticHtmlComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TestComponent]
+      imports: [SemanticHtmlComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(TestComponent);
+    fixture = TestBed.createComponent(SemanticHtmlComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
