@@ -8,4 +8,12 @@ export const routes: Routes = [
         (c) => c.SemanticHtmlComponent
       ),
   },
+
+  {
+    path: 'typescript',
+    loadComponent: () =>
+      import('./pages/typescript/typescript.component').then(
+        (c) => c.TypescriptComponent
+      ),
+  },
 ];
